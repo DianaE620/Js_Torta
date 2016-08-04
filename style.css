@@ -1,0 +1,82 @@
+.container {
+	height: 700px;
+	padding: 30px 70px;
+	margin: 0 auto;
+}
+
+#horno-title {
+	color: black;
+	position: relative;
+	top: 31px;
+  left: 85px;
+}
+
+.oven {
+	width: 768px;
+	display: none;
+	height: 500px;
+	border-radius: 5px;
+	background: url("horno.png") no-repeat;
+	background-size: 768px 800px;
+	margin: 0 auto;
+}
+
+#cook {
+	position: absolute;	
+	top: 33%;
+	left: 40%;
+
+}
+
+#timer {
+	width: 145px;
+	height: 90px;
+	position: relative;
+	top: 10%;
+	left: 309px;
+	border: 2px solid #999;
+	text-align: center;
+}
+
+#countdown {
+	color: white;
+	padding-left: 30px;
+}
+
+#status {
+	color: white;
+	padding-left: 30px;
+}
+
+#history {
+	width: 768px;
+	margin: 0 auto;
+}
+
+.recien-salidas {
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+.quemada{
+	background-color: #FF0000;
+}
+
+.listo {
+	background-color: #008600;
+}
+
+.crudo {
+	background-color: #7F7F7F;
+}
+
+.casi-listo {
+	background-color: #FF7F00;
+}
+
+.development{
+	border: 2px dashed red;
+}
